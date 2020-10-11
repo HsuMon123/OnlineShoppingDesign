@@ -1,0 +1,126 @@
+
+/*Navigation*/
+/*.menu{
+    background-color: #f8f9fa;
+    box-shadow: 0 10px 20px rgba(0,0,0,.3);  
+  }
+
+.menu .navbar-nav .nav-item .nav-link {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+.menu .navbar-nav .nav-item .nav-link:hover {
+  color: green;
+}
+.menu .navbar-nav .nav-item:last-child .nav-link {
+  padding-right: 0;
+}
+*/
+
+/*Carousel*/
+.container-carousel{
+	margin-top: 50px;
+}
+
+div.img-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ /* background: rgba(0,0,0,0.4);*/
+}
+
+
+/*button color in Card (Add to Cart)*/
+
+.card-body a {
+  text-decoration: none;
+}
+.btn-outline-info {
+  background: white;
+  border-color: /*#017382*/   #3297a8;
+  color: /*#017382*/  /*#0b4852*/   #3297a8;
+}
+
+.btn-outline-info:hover {
+ background-color: #078094;
+ cursor: pointer;         
+}
+
+.btn-outline-info:active,
+
+.btn-outline-info:focus {
+  color: #fff;
+  background-color: #0a7e91;
+  border-color: #0a7e91 ;
+  box-shadow: 0 0 0 0.2rem rgba(27, 157, 179, 0.5);
+  /*250, 107, 214*/
+}
+
+.btn-outline-info:not(.disabled):not(.disabled):not(.disabled):active{
+    color: #fff;
+    background-color: #0a7e91;
+    box-shadow: 0 0 0 0.2rem rgba(27, 157, 179, 0.5); 
+    border-color: #0a7e91 ;
+    }
+
+
+/*View More.....*/
+
+.btncontainer:hover {
+	color: #fff;
+ background-color: #078094;
+ cursor: pointer; 
+ text-decoration-line: none;        
+}
+.btncontainer:focus {
+  color: #fff;
+  background-color: #0a7e91;
+  border-color: #0a7e91 ;
+  /*box-shadow: 0 0 0 0.2rem rgba(27, 157, 179, 0.5);*/
+  text-decoration-line: none;
+}
+.btn-outline-info:a{
+	color: red;
+}
+
+
+
+
+/*Product.html*/
+
+.container-product{
+	margin-top: 100px;
+}
+
+
+
+
+
+/*about.html*/
+
+.cover{
+	margin-top: 70px;
+}
+
+/*Bender Image and Text Box */
+
+.cover img{
+	width: 100%;
+  height: 100%;
+ 
+  object-fit: cover;
+}
+
+.text-block {
+  position: absolute;
+  top: 72%;
+  /*bottom: 20%;*/
+  left: 70%;
+  background-color:  /*#573933*/ #7d4127 ;
+  color: white;
+ /* padding-left: 20px;
+  padding-right: 20px;*/
+}
